@@ -1,4 +1,5 @@
 body {
+  margin-top: -70px;
   padding: 50px;
   align-content: center;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -11,6 +12,7 @@ a {
 h1 {
   font-family: comic 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  
 }
 
 p {
@@ -48,4 +50,18 @@ li {
 #textbox {
   border: solid;
   padding: 2vmin;
+}
+
+#messages {
+  height: 300px;
+  overflow: auto;
+  direction: ltr;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  overflow: hidden;
 }
