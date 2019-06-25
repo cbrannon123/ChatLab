@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  align-content: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-family: comic 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 1vmin;
+  color: blue;
+  margin: 0 0 0 30vw;
+}
+
+textarea#new-msg {
+  width: 50vw;
+	height: 20vh;
+	border: 0.3vmin solid #cccccc;
+	padding: 2vmin;
+	font-family: Tahoma, sans-serif;
+	
+}
+
+li {
+  list-style: none;
+}
+
+#user-name {
+  width: 10vw;
+	height: 2vh;
+}
+
+#btn-send-msg {
+ margin: 0 0 0 60vw;
+ width: 15vmin;
+ background-color: #00B7FF;
+ color: white;
+ border-color: black;
+}
+
+#textbox {
+  border: solid;
+  padding: 2vmin;
+}
